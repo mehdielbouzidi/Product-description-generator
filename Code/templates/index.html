@@ -1,0 +1,165 @@
+<html>
+
+<title>Demo</title>
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="/">Text generation</a>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+
+        <h1>Demo</h1>
+        <hr>
+
+        <form action="/" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+            <div class="form-group">
+              <label for="sel1">Select model:</label>
+              <select name="model" class="form-control" id="sel1">
+                <option >--SELECT MODEL--</option>
+                <option value= 'ENVY 17-ce1906nd' >ENVY 17-ce1906nd</option>
+                <option value= 'HP Pavilion Gaming 17-cd0917nd' >HP Pavilion Gaming 17-cd0917nd</option>
+                <option value= 'Lenovo IdeaPad L340-17IRH 81LL003BMH' >Lenovo IdeaPad L340-17IRH 81LL003BMH</option>
+                <option value= 'Lenovo Legion Y540-17IRH 81Q4001AMH' >Lenovo Legion Y540-17IRH 81Q4001AMH</option>
+                <option value= 'HP Pavilion G 17-cd0100nd' >HP Pavilion G 17-cd0100nd</option>
+                <option value= 'HP 17-by2916nd' >HP 17-by2916nd</option>
+                <option value= 'Acer Swift 3 SF314-58-59KV' >Acer Swift 3 SF314-58-59KV</option>
+                <option value= 'Acer Swift 3 SF314-57-57NU ' >Acer Swift 3 SF314-57-57NU </option>
+                <option value= 'Acer Swift 3 SF314-58G-54XQ' >Acer Swift 3 SF314-58G-54XQ</option>
+                <option value= 'Asus ZenBook UX434FLC-AI220T' >Asus ZenBook UX434FLC-AI220T</option>
+                <option value= ' Asus ZenBook UX434FLC-AI502T' > Asus ZenBook UX434FLC-AI502T</option>
+                <option value= 'Asus VivoBook S14 K433JQ-AM178T' >Asus VivoBook S14 K433JQ-AM178T</option>
+                <option value= 'Asus ZenBook Duo UX481FL-BM042T' >Asus ZenBook Duo UX481FL-BM042T</option>
+                <option value= 'Asus VivoBook X409JA-EK024T' >Asus VivoBook X409JA-EK024T</option>
+                <option value= 'Asus VivoBook D409BA-BV072T' >Asus VivoBook D409BA-BV072T</option>
+                <option value= 'Asus ROG Strix G GL531GV-AL116T' >Asus ROG Strix G GL531GV-AL116T</option>
+                <option value= 'Asus ZenBook UM433DA-A5019T' >Asus ZenBook UM433DA-A5019T</option>
+                <option value= 'Asus VivoBook N580GD-E4730T' >Asus VivoBook N580GD-E4730T</option>
+                <option value= 'Asus A509JA-EJ078T' >Asus A509JA-EJ078T</option>
+                <option value= 'Asus ZenBook UX431FA-AM132T' >Asus ZenBook UX431FA-AM132T</option>
+                <option value= 'Asus VivoBook Pro N580GD-E4729T' >Asus VivoBook Pro N580GD-E4729T</option>
+                <option value= 'Asus VivoBook X402YA-GA032TS' >Asus VivoBook X402YA-GA032TS</option>
+                <option value= 'Asus ZenBook UX534FTC-AA052T' >Asus ZenBook UX534FTC-AA052T</option>
+                <option value= 'Asus VivoBook X512FA-BQ731T' >Asus VivoBook X512FA-BQ731T</option>
+                <option value= 'Asus ROG Strix G GL731GW-EV135T' >Asus ROG Strix G GL731GW-EV135T</option>
+                <option value= 'Asus VivoBook S ScreenPad S432FA-EB055T' >Asus VivoBook S ScreenPad S432FA-EB055T</option>
+                <option value= 'Asus VivoBook X543MA-DM673T' >Asus VivoBook X543MA-DM673T</option>
+                <option value= 'Asus VivoBook Pro N705FD-GC163T' >Asus VivoBook Pro N705FD-GC163T</option>
+                <option value= 'Asus X543MA-DM647T' >Asus X543MA-DM647T</option>
+                <option value= 'Asus ZenBook UX334FAC-A3066T' >Asus ZenBook UX334FAC-A3066T</option>
+                <option value= 'Asus VivoBook D705BA-BX041T' >Asus VivoBook D705BA-BX041T</option>
+                <option value= 'Asus VivoBook R702MA-BW128T' >Asus VivoBook R702MA-BW128T</option>
+                <option value= 'Asus VivoBook X512JA-EJ336T' >Asus VivoBook X512JA-EJ336T</option>
+                <option value= 'Asus D509DA-EJ665T' >Asus D509DA-EJ665T</option>
+                <option value= 'Asus X543MA-DM1008T' >Asus X543MA-DM1008T</option>
+                <option value= 'Asus X705MA-BX186T' >Asus X705MA-BX186T</option>
+                <option value= 'X705MA-BX025T' >X705MA-BX025T</option>
+                <option value= 'Asus X705MA(GML-R)-BX187T' >Asus X705MA(GML-R)-BX187T</option>
+                <option value= 'Asus L410MA-EK276T' >Asus L410MA-EK276T</option>
+                <option value= 'Asus VivoBook X543MA-DM657T' >Asus VivoBook X543MA-DM657T</option>
+                <option value= 'Asus L210MA-GJ010TS ' >Asus L210MA-GJ010TS </option>
+                <option value= 'MSI GF63 9SC-203NL' >MSI GF63 9SC-203NL</option>
+                <option value= 'MSI GP65 Leopard 9SD-021NL' >MSI GP65 Leopard 9SD-021NL</option>
+                <option value= 'MSI GF75 9SC-435NL' >MSI GF75 9SC-435NL</option>
+                <option value= 'MSI GS65 9SD-431NL' >MSI GS65 9SD-431NL</option>
+                <option value= 'MSI GE63 Raider RGB 8RE-045NL' >MSI GE63 Raider RGB 8RE-045NL</option>
+                <option value= 'MSI GF62 8RE-041NL' >MSI GF62 8RE-041NL</option>
+                <option value= ' MSI GT75 8SF-009NL' > MSI GT75 8SF-009NL</option>
+                <option value= 'Acer Nitro 5 AN517-51-74EA' >Acer Nitro 5 AN517-51-74EA</option>
+                <option value= 'Acer Nitro 7 AN715-51-76T7' >Acer Nitro 7 AN715-51-76T7</option>
+                <option value= 'Acer Aspire 7 A715-74G-544W' >Acer Aspire 7 A715-74G-544W</option>
+                <option value= 'Acer Aspire 7 A715-75G-7170' >Acer Aspire 7 A715-75G-7170</option>
+                <option value= 'Acer Predator Helios 300 PH317-53-75C1' >Acer Predator Helios 300 PH317-53-75C1</option>
+                <option value= 'Acer Aspire 7 A715-75G-751G' >Acer Aspire 7 A715-75G-751G</option>
+                <option value= 'Acer Nitro 5 AN517-52-7066' >Acer Nitro 5 AN517-52-7066</option>
+                <option value= 'Acer Predator Helios PH315-51-70KM' >Acer Predator Helios PH315-51-70KM</option>
+                <option value= 'Lenovo Legion Y540-15IRH 81SX002NMH' >Lenovo Legion Y540-15IRH 81SX002NMH</option>
+                <option value= 'Lenovo Legion Y540-15IRH-PG0 81SY006YMH' >Lenovo Legion Y540-15IRH-PG0 81SY006YMH</option>
+                <option value= 'Lenovo Legion Y740-15IRHg 81UH0013MH' >Lenovo Legion Y740-15IRHg 81UH0013MH</option>
+                <option value= 'Lenovo Legion Y540-15IRH 81SX002QMH' >Lenovo Legion Y540-15IRH 81SX002QMH</option>
+                <option value= 'HP Omen 15-dc0975nd' >HP Omen 15-dc0975nd</option>
+                <option value= 'HP Omen 15-dh0600nd' >HP Omen 15-dh0600nd</option>
+                <option value= 'HP Omen 15-dc1970nd' >HP Omen 15-dc1970nd</option>
+                <option value= 'HP Omen 15-dh0950nd' >HP Omen 15-dh0950nd</option>
+                <option value= ' Lenovo IdeaPad S145-15IIL 81W8002QMH' > Lenovo IdeaPad S145-15IIL 81W8002QMH</option>
+                <option value= 'Acer Aspire 3 A315-56-35TJ' >Acer Aspire 3 A315-56-35TJ</option>
+                <option value= 'HP 17-ca0991nd' >HP 17-ca0991nd</option>
+                <option value= 'HP 14s-dq1923nd' >HP 14s-dq1923nd</option>
+                <option value= 'Acer Aspire 1 A111-31-C1AD' >Acer Aspire 1 A111-31-C1AD</option>
+                <option value= 'HP 14-dk0918nd' >HP 14-dk0918nd</option>
+                <option value= '15s-eq0004nd' >15s-eq0004nd</option>
+                <option value= 'Lenovo IdeaPad S145-15IIL 81W8005KMH' >Lenovo IdeaPad S145-15IIL 81W8005KMH</option>
+                <option value= ' HP 15-db0939nd' > HP 15-db0939nd</option>
+                <option value= 'Lenovo IdeaPad 330-17AST 81D7003UMH' >Lenovo IdeaPad 330-17AST 81D7003UMH</option>
+                <option value= 'Lenovo IdeaPad 330-17AST 81D7006GMH' >Lenovo IdeaPad 330-17AST 81D7006GMH</option>
+                <option value= 'Lenovo Portege X30-E-1J1 i5-8GB-256GB' >Lenovo Portege X30-E-1J1 i5-8GB-256GB</option>
+                <option value= 'Lenovo Portege A30-E-17P' >Lenovo Portege A30-E-17P</option>
+                <option value= 'Lenovo Satellite Pro L50-G-11G' >Lenovo Satellite Pro L50-G-11G</option>
+                <option value= 'Lenovo IdeaCentre 510-15ICK 90LU0055MH' >Lenovo IdeaCentre 510-15ICK 90LU0055MH</option>
+                <option value= 'Acer Swift 3 Pro SF313-52-5108' >Acer Swift 3 Pro SF313-52-5108</option>
+                <option value= 'Acer TravelMate X5 TMX514-51-550R' >Acer TravelMate X5 TMX514-51-550R</option>
+                <option value= 'Acer Aspire 3 A317-51-771A' >Acer Aspire 3 A317-51-771A</option>
+                <option value= 'Acer Aspire 5 A515-54G-79EH' >Acer Aspire 5 A515-54G-79EH</option>
+                <option value= 'Acer Swift 3 SF314-58G-70D7' >Acer Swift 3 SF314-58G-70D7</option>
+                <option value= ' Acer Swift 5 Pro SF514-54T-5194' > Acer Swift 5 Pro SF514-54T-5194</option>
+                <option value= 'HP 15s-fq1970nd laptop' >HP 15s-fq1970nd laptop</option>
+                <option value= 'HP 470 G7 i7-16gb-256GB + 1TB' >HP 470 G7 i7-16gb-256GB + 1TB</option>
+                <option value= 'HP Pavilion 15-cs3970nd' >HP Pavilion 15-cs3970nd</option>
+                <option value= 'HP 17-ca1901nd' >HP 17-ca1901nd</option>
+                <option value= 'HP ENVY 17-ce1907nd' >HP ENVY 17-ce1907nd</option>
+                <option value= 'HP Pavilion 15-cs3965nd' >HP Pavilion 15-cs3965nd</option>
+                <option value= 'HP Pavilion Notebook 15-cw1948nd' >HP Pavilion Notebook 15-cw1948nd</option>
+
+              </select>
+
+              <label for="sel1">Select Puprose:</label>
+              <select name="purpose" class="form-control" id="sel1">
+
+                <option value="Editting">Editting</option>
+                <option value="Gaming">Gaming</option>
+                <option value="Casual">Casual</option>
+
+              </select>
+
+              <label for="sel1">Select Description length (no. of words):</label>
+              <select name="length" class="form-control" id="sel1">
+
+                <option value=100>100</option>
+                <option value=200>200</option>
+                <option value=300>300</option>
+
+              </select>
+              <br>
+              <br>
+              
+              <center><button class="btn btn-primary">Generate</button> </center>
+            </div>  
+          </div>
+        </div>
+
+        </form>
+	 {{ prediction_text }}
+
+
+
+
+</body>
+
+</html>
